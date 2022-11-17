@@ -8,11 +8,11 @@ public class Student
     private String lastName;
     private int gradeLevel;
     
-    public Student(String fName, String lName, int grade)
+    public Student(String firstName, String lastName, int gradeLevel)
     {
-        firstName = fName;
-        lastName = lName;
-        gradeLevel = grade;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gradeLevel = gradeLevel;
     }
     
     public String toString()
